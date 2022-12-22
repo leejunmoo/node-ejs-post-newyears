@@ -65,7 +65,7 @@
     <h1>덕담 한마디</h1>
     <form action="/create" method="post">
       <label for="post"></label>
-      <input type="text" id="post" name="post" placeholder="여기에 글을 작성해주세요">
+      <textarea name="post" id="post" cols="30" rows="10" placeholder="여기에 글을 작성해주세요" maxlength="225"></textarea>
       <div class="notice-box">
         <input type="text" id="postName" name="postName" placeholder="작성자명">
         <button type="submit">글쓰기</button>
@@ -81,12 +81,14 @@
           <div class="notice-text-list-title-box">
             <div class="notice-text-list-title">
               <h2><%= postsName[i] %></h2>
-              <p class="date">2021.12.22</p>
+              <p type="text" id="date" name="date"><%= today %></p>
             </div>
             <div class="notice-text-list-icon">
-              <a href="#">
-                <img src="/images/delete-icon.png" alt="1">
-              </a>
+              <form action="/delete/<%= i %>" method="post">
+                <button type="submit">
+                  <img src="/images/delete-icon.png" alt="1">
+                </button>
+              </form>
             </div>
           </div>
           <p><%= posts[i] %></p>
@@ -121,6 +123,6 @@
     },
   });
 </script>
-  
+
 </body>
 </html>

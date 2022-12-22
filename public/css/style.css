@@ -144,6 +144,11 @@ body {
   font-family: 'Nanum Gothic', sans-serif;
 }
 
+.wrap .notice .notice-text-list ul {
+  height: 300px;
+  overflow: scroll;
+}
+
 
 .wrap .notice .notice-text-list h1 {
   font-family: 'Nanum Myeongjo', serif;
@@ -161,7 +166,7 @@ body {
   margin-bottom: 10px;
 }
 
-.wrap .notice .notice-text-list ul li .date {
+.wrap .notice .notice-text-list ul li #date {
   /* margin: 0 0 10px 0; */
   color: #999;
   font-size: 11px;
@@ -176,4 +181,9 @@ body {
 .wrap .notice .notice-text-list .notice-text-list-title-box {
   display: flex;
   justify-content: space-between;
+}
+
+.wrap .notice .notice-text-list .notice-text-list-title-box button {
+  background-color: #fff;
+  border-style: none;
 }
