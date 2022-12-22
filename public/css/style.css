@@ -115,6 +115,7 @@ body {
 
 .wrap .notice #post:not(.notice-box #postName) {
   width: 336px;
+  height: 80px;
   padding-bottom: 80px;
 }
 
