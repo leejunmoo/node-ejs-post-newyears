@@ -64,6 +64,7 @@ body {
   text-align: center;
   padding-top: 60px;;
   background-color: #fff;
+  transition: 1s;
 }
 
 .wrap .banner.show {
@@ -119,6 +120,7 @@ body {
 /* 덕담 한마디 */
 .wrap .notice {
   padding: 0 20px;
+  margin-bottom: 100px;
 }
 
 .wrap .notice h1 {
@@ -204,4 +206,21 @@ body {
 .wrap .notice .notice-text-list .notice-text-list-title-box button {
   background-color: #fff;
   border-style: none;
+}
+
+/* footer */
+.wrap footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap .footer-box .footer-text {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
 }

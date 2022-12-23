@@ -89,6 +89,7 @@
       <textarea name="post" id="post" cols="30" rows="10" placeholder="여기에 글을 작성해주세요" maxlength="225"></textarea>
       <div class="notice-box">
         <input type="text" id="postName" name="postName" placeholder="작성자명">
+        <input type="hidden" id="date" name="date" value="<%= today %>">
         <button type="submit">글쓰기</button>
       </div>
       
@@ -102,7 +103,10 @@
           <div class="notice-text-list-title-box">
             <div class="notice-text-list-title">
               <h2><%= postsName[i] %></h2>
-              <p type="text" id="date" name="date"><%= today %></p>
+              <form action="/create" method="post">
+                <p id="date"><%= postsDate[i] %></p>
+              </form>
+              
             </div>
             <div class="notice-text-list-icon">
               <form action="/delete/<%= i %>" method="post">
@@ -118,7 +122,14 @@
       </ul>
     </div>
   </div>
-  
+  <!-- footer -->
+  <footer>
+    <div class="footer-box">
+      <div class="footer-text">
+        <p>&copy; Lee Jun Moo All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
 </div>
 
 
@@ -156,7 +167,7 @@
     if (350< scrollY && scrollY < 1200) {
       $('.wrap .banner').addClass("show")
       $('.wrap .banner .banner-text').addClass("show")
-    } else if (scrollY > 1216) {
+    } else if (scrollY > 1260) {
       $('.wrap .banner').removeClass("show")
       $('.wrap .banner .banner-text').removeClass("show")
       console.log('삭제');
