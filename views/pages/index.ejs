@@ -86,9 +86,9 @@
     <h1>덕담 한마디</h1>
     <form action="/create" method="post">
       <label for="post"></label>
-      <textarea name="post" id="post" cols="30" rows="10" placeholder="여기에 글을 작성해주세요" maxlength="225"></textarea>
+      <textarea name="post" id="post" cols="30" rows="10" placeholder="여기에 글을 작성해주세요" maxlength="225" required></textarea>
       <div class="notice-box">
-        <input type="text" id="postName" name="postName" placeholder="작성자명">
+        <input type="text" id="postName" name="postName" placeholder="작성자명" required>
         <input type="hidden" id="date" name="date" value="<%= today %>">
         <button type="submit">글쓰기</button>
       </div>
