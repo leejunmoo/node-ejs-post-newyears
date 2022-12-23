@@ -4,6 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="og:site_name" content="수원여자대학교 실용음악과" />
+  <meta name="og:title" content="수원여자대학교 실용음악과" />
+  <meta
+    name="og:description"
+    content="수원여자대학교 실용음악과 홈페이지입니다."
+  />
+  <meta name="og:type" content="website" />
+  <meta name="keywords" content="연하장, 근하신년, 새해" />
+  <meta name="author" content="홍길동" />
+  <meta
+    name="description"
+    content="신년맞이 연하장 입니다."
+  />
+  <!-- <link rel="icon" href="./images/favicon/Favicon.png" /> -->
+  <meta property="og:image" content="http://localhost:3001/images/metatitle.jpg"/>
   <title>Home</title>
   <!-- style.css -->
   <link rel="stylesheet" href="/css/style.css">
@@ -16,6 +31,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
+     <!-- 제이쿼리 -->
+     <script
+     src="https://code.jquery.com/jquery-3.6.1.js"
+     integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+     crossorigin="anonymous"
+     ></script>
 </head>
 <body>
 <div class="wrap">
@@ -124,5 +145,31 @@
   });
 </script>
 
+<<<<<<< HEAD
+<!-- 스크롤 이벤트 -->
+<script>
+ $(function(){
+  $(window).scroll(function(){
+    let scrollY = this.scrollY;
+    // let scrollX = this.scrollX;
+    console.log(scrollY);
+    // console.log(scrollX);
+    if (350< scrollY && scrollY < 1200) {
+      $('.wrap .banner').addClass("show")
+      $('.wrap .banner .banner-text').addClass("show")
+    } else if (scrollY > 1216) {
+      $('.wrap .banner').removeClass("show")
+      $('.wrap .banner .banner-text').removeClass("show")
+      console.log('삭제');
+    }  
+    })
+  });
+  
+  
+
+</script>
+
+=======
+>>>>>>> 642214c0c973927317473a5d6180d871441ddf4b
 </body>
 </html>

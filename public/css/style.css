@@ -33,7 +33,6 @@ body {
   max-width: 375px;
   width: 100%;
   height: 667px;
-  outline: 1px solid red;
   background-image: url(../images/main-title.jfif);
   background-size: cover;
   background-repeat: no-repeat;
@@ -62,9 +61,25 @@ body {
 .wrap .banner {
   max-width: 375px;
   height: 100%;
-  background-color: #ddd;
   text-align: center;
   padding-top: 60px;;
+  background-color: #fff;
+}
+
+.wrap .banner.show {
+  background-color: rgb(232, 232, 232);
+  transition: 1.5s;
+}
+
+.wrap .banner .banner-text {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.wrap .banner .banner-text.show {
+  visibility: visible;
+  opacity: 1;
+  transition: 2s;
 }
 
 .wrap .banner h1 {
