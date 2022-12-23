@@ -14,7 +14,14 @@
 #### 3.Node.js 및 Ejs / npm 모듈 활용하기
 
 # 사이트 메인 페이지📲
-사진캡쳐넣기
+![image](https://user-images.githubusercontent.com/113665599/209274365-a1e4af6b-0cf2-4b89-a617-38f7c86ae793.png)
+![image](https://user-images.githubusercontent.com/113665599/209274384-6f2bd79e-d417-40d6-b494-f17b3338d6cc.png)
+![image](https://user-images.githubusercontent.com/113665599/209274388-abdc5d5a-df55-43b2-922a-f781c526cabe.png)
+![image](https://user-images.githubusercontent.com/113665599/209274394-6ed8cbb6-e6be-4aa9-96b8-d8137f291f46.png)
+![image](https://user-images.githubusercontent.com/113665599/209274398-dcfb17f5-7622-4c16-8b31-77ad3c23aef9.png)
+
+
+
 
 # 사이트 제작 포인트✅
 #### 1. 모바일 전용 어플인 만큼 메인배너를 자동재생이아닌 손으로 드래그하며 확인 하도록 제작
