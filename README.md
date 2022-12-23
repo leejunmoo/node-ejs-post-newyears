@@ -4,7 +4,8 @@
 ### 서비스플랫폼 배포완료. 백엔드 웹앱기준 제작
 (By 이준무)
 ### 제공된 디자인시안을 기준으로 제작함
-#### 서비스주소 : 클라우드에 올린후 주소 붙혀넣기
+#### 피그마주소: https://www.figma.com/file/Hw7GUPwAsUj4oNFmdo77Hj/%EA%B3%BC%EC%A0%9C%EB%AC%BC-%EC%97%B0%ED%95%98%EC%9E%A5%EC%A0%9C%EC%9E%91?node-id=0%3A1&t=O7w7Esio4y44BIW6-1
+#### 서비스주소: https://port-0-node-ejs-post-newyears-fyyf25lboho2ya.gksl2.cloudtype.app/
 
 
 # 제작 목표📜
