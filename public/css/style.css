@@ -68,7 +68,7 @@ body {
 
 .wrap .banner.show {
   background-color: rgb(232, 232, 232);
-  transition: 1.5s;
+  transition: 1s;
 }
 
 .wrap .banner .banner-text {
@@ -79,7 +79,7 @@ body {
 .wrap .banner .banner-text.show {
   visibility: visible;
   opacity: 1;
-  transition: 2s;
+  transition: 1.3s;
 }
 
 .wrap .banner h1 {
@@ -163,6 +163,8 @@ body {
 .wrap .notice .notice-text-list ul {
   height: 300px;
   overflow: scroll;
+  outline: 1px solid black;
+  padding: 10px;
 }
 
 
