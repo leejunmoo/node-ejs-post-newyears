@@ -110,7 +110,7 @@
             </div>
             <div class="notice-text-list-icon">
               <form action="/delete/<%= i %>" method="post">
-                <button type="submit">
+                <button type="submit" id="deletebtn">
                   <img src="/images/delete-icon.png" alt="1">
                 </button>
               </form>
@@ -122,6 +122,8 @@
       </ul>
     </div>
   </div>
+
+
   <!-- footer -->
   <footer>
     <div class="footer-box">
@@ -162,7 +164,7 @@
   $(window).scroll(function(){
     let scrollY = this.scrollY;
     // let scrollX = this.scrollX;
-    console.log(scrollY);
+    //console.log(scrollY);
     // console.log(scrollX);
     if (350< scrollY && scrollY < 1200) {
       $('.wrap .banner').addClass("show")
@@ -170,11 +172,34 @@
     } else if (scrollY > 1260) {
       $('.wrap .banner').removeClass("show")
       $('.wrap .banner .banner-text').removeClass("show")
-      console.log('삭제');
+      //console.log('삭제');
     }  
     })
+    
+    
+    
+    /* 글쓰기 버튼 */
+    $('.notice .notice-box button').on('click', function(){
+      if(confirm('등록하시겠습니까?')) {
+        alert('등록되었습니다.');
+      } else {
+        alert('취소되었습니다.')
+        return false
+      }
+    })
+    /* 휴지통 버튼 */
+    $('.notice .notice-text-list ul li .notice-text-list-title-box .notice-text-list-icon #deletebtn').on('click', function(){
+      if(confirm('삭제하시겠습니까?')) {
+        alert('삭제되었습니다.');
+      } else {
+        alert('취소되었습니다.')
+        return false
+      }
+      
+    }) 
+    
   });
-  
+ 
   
 
 </script>
