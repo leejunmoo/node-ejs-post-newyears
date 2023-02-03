@@ -11,7 +11,13 @@
 # 제작 목표📜
 #### 1.모바일 전용 어플 기준으로 만드는 만큼 클래식한 디자인추구 및 실용성있는 정보만을 전달
 #### 2.서비스플랫폼에 배포하기위해 DB파일(json)을 활용하여 게시판 글 저장 및 삭제 기능 추가
-#### 3.Node.js 및 Ejs문법활용하기 / express 프레임워크 활용하기
+#### 3.Node.js 및 Ejs문법활용하기 / express 프레임워크 활용하기    
+
+
+##### 📌개발환경 : 운영체제 윈도우10 chrome
+##### 📌사용 코드에디터 : vs code
+##### 📌개발언어: HTML, CSS, JavaScript 
+##### 📌사용 모듈: node.js, express 활용 
 
 # 사이트 메인 페이지📲
 ![image](https://user-images.githubusercontent.com/113665599/209274808-7499426e-3824-4f9f-b42e-28dcac1bd421.png)
